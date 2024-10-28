@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone-Netflix Ínicio</title>
+    <meta name="autor" content="Guilherme Bandeira">
+    <meta name="site" content="clone do Clone-Netflix">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <img class="img-logo" src="/assets/logo-e-perfil/logo-netflix.png" alt="logo-netflix">
+        <nav>
+            <ul>
+                <div class="container">
+                    <li>
+                        <img class="img-user"
+                            src="/assets/logo-e-perfil/AAAABb-8vVI7sndeLpeKmju4PDnE0NKcVv9S6SuAZoi44Jueraamryof18JEKPH21DTc8oPB-E1ItVQdqZpFOPDKvAQKMROjPUw.png"
+                            alt="user-perfil">
+                    </li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <div class="main-img">
+            <img class="img-thumbnail"
+                src="/assets/imgs/AAAABWg1t8ZOQPCDsO3l5s9o46qXu7ilQ2fwITecDvmwBXeazLiE8HbtvNE1HBI1pHidp8zcANhsmkBIXSM-UCrZowC0v9-m9zVp3ULY.jpg"
+                alt="thumbnail" onmouseenter="sobre()">
+        </div>
+
+        <div class="container-titulo-btn">
+            <div class="frame-titulo">
+                <img class="title-movie"
+                    src="/assets/titulo/AAAABVUzksxZY-GnBS5q8D0yoXB28CD9dgDRpBpIrc_CI6WIUV-HIIRzrTaZhze7b8APFFpE3Ot4fp8OnzuJW7vKrW9jXscYGSpzYIGO53anKH37m8rPocdxCdAvldfy-4zcbDs31Ttl0Jj7UJmM07BgymmV0iNZL46CgDl35UYApyvf.png"
+                    alt="filme-identidade-em-jogo">
+            </div>
+            <p class="description-movie">Uma festa pre-casamento se transforma em um <br>pesadelo para um grupo de
+                amigos da faculdade depois <br> que um convidado inesperado aparece carregando <br>uma mala
+                misteriosa.
+            </p>
+            <div class="btns">
+
+                <button class="btn-assistir"><img src="assets/logo-e-perfil/botao-play-ponta-de-seta.png"
+                        alt="botão-play" class="btn-play"> <strong>Assitir</strong></button>
+
+
+                <button class="btn-informacao"><strong>Mais informações</strong></button>
+
+            </div>
+            <div class="opacity-center"></div>
+        </div>
+    </main>
+
+    <section>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <h2 class="titulo-carrosel">Principais filmes</h2>
+            <div class="indicador">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                </ol>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="imagem-carrosel" src="/assets/imgs/a-lista-da-vinganca.jpg"
+                        alt="filme-lista-de-vingança">
+                    <img class="imagem-carrosel" src="/assets/imgs/aranha-ceu.jpg" alt="arranha-ceu">
+                    <img class="imagem-carrosel" src="/assets/imgs/bem-vindo-a-selva.jpg" alt="filme-bem-vindo-a-selva">
+                    <img class="imagem-carrosel" src="/assets/imgs/dugeon-e-dragons.jpg" alt="dungeo-dragon">
+                    <img class="imagem-carrosel" src="/assets/imgs/prisioneir-do-caos.jpg" alt="filme-prisioneiro-do-caos">
+                </div>
+
+                <div class="carousel-item">
+                    <img class="imagem-carrosel" src="/assets/imgs/superfly.jpg" alt="filme-superfly">
+                    <img class="imagem-carrosel" src="/assets/imgs/the-predator.jpg" alt="filme-the-predator">
+                    <img class="imagem" src="./assets/imgs/chokehold.jpg" alt="filme-chokehold">
+                    <img class="imagem" src="/assets/imgs/equalizer.jpg" alt="filme-equalizer">
+                    <img class="imagem" src="/assets/imgs/abyss.jpg" alt="filme-abyss">
+                </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>t>
+</body>
+ <script src="/assets/js/script.js"></script>
+</html>
